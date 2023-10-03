@@ -49,6 +49,7 @@ public class PremiumSugarSmashPlayer extends SugarSmashPlayer {
     }
 
     public String getPremium() {
+
         return premium;
     }
 

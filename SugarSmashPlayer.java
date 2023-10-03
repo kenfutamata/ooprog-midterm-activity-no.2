@@ -40,15 +40,13 @@ public class SugarSmashPlayer {
     public String getName(){
         return name;
     }
-    public void setLevel(int level){
+
+    public void setScore(int arr[], int level){
+        this.arr = arr;
         this.level = level;
     }
-
     public int getLevel(){
         return level;
-    }
-    public void setArr(int arr[]){
-        this.arr = arr;
     }
 
     public int[] getArr(){
